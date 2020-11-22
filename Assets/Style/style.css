@@ -1,26 +1,110 @@
-.A1 {
-    background-color: blue;
-    height: 1rem;
+/* CSS for Blaek Stickland Portfolio */
+
+body {
+  background-color: rgb(207, 207, 207);
+  height: 100%;
 }
 
-.A2 {
-    background-color: brown;
-    height: 1rem;
+.bg {
+  /* The image used */
+  background-image: url("https://img.freepik.com/free-photo/gray-wall-textures-background_74190-4389.jpg?size=626&ext=jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
 }
 
-.A3 {
-    background-color: red;
-    height: 1rem;
+.top-navigation {
+  border-bottom: 1px solid rgb(146, 142, 142);
 }
 
-.B1 {
-    background-color: red;
+#navBrand {
+  padding: 16px;
+  position: static;
+  float: left;
 }
 
-.C1 {
-    background-color: brown;
+.bgGreen {
+  background-color:  #59aaa5;
 }
 
-.C2 {
-    background-color: blue;
+.textGreen {
+  color:  #59aaa5;  
 }
+
+.portfolioLink {
+  position: absolute;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  border-top: 1rem solid #59aaa5 ;
+  background-color: #666666;
+  color: #ffffff;
+}
+
+.footer span {
+  color: #ffffff;
+}
+
+nav {
+  background-color: #59aaa5 ;
+}
+
+ul li {
+  color: #c7c7c7;
+}
+
+ul a {
+  color: #c7c7c7;
+}
+
+.verticalLine { 
+  border-left: 2px solid #6b6969; 
+}
+
+.bottomBorder {
+  border-bottom: 2px solid rgb(146, 142, 142);
+}
+
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: #333;
+    }
+  
+    /* The wrapper's width will be 600px */
+    .wrapper {
+      width: 600px;
+    }
+  }
+
+
+/*
+  These rules take effect when the browser's width
+  is either 640px or less.
+*/
+
+@media screen and (max-width: 640px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: #333;
+    }
+  
+    /* The wrapper's width will be 600px */
+    .wrapper {
+      width: 600px;
+    }
+  }
