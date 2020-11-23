@@ -24,7 +24,7 @@ A portfolio using responsive design to render on all devices, windows and screen
 -- FOOTER
  ** Could make an anchor hover plus link back to index.html page of Blake Stickland site.
 
- 
+
 
 # index.html page
 
@@ -32,3 +32,14 @@ A portfolio using responsive design to render on all devices, windows and screen
 
 # contact.html page
 
+fumi
+
+fumi
+
+oto
+
+seiko
+
+blake
+
+ichi
