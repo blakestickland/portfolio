@@ -1,9 +1,9 @@
 <!-- Project 02 Warmup Bootstrap -->
 
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" style="height: 100vh;">
 
-    <head>
+  <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
@@ -13,45 +13,38 @@
         <!-- Bring in our bootstrap stylesheet -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="Assets/Style/style.css">
-    </head>
+  </head>
+
+  <body class="bg">   
 
     <!-- Section 1: Navbar-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light py-0 top-navigation">
-        <div class="container-fluid">
-          <!-- Our brand / logo -->
-          <div class="navbar-header" >
-            <a class="navbar-brand bgGreen text-white clearfix"  id="navBrand" href="#">Blake Stickland</a>
-          </div>
-          
-          <button class="navbar-toggler" type="button" data-toggle="collapse"
-           data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-  
-            <!-- Collapsible button -->
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto"  role="navigation">
-  
-              <!-- The links of our navbar -->
-              <li class="nav-item">
-                <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-              </li>
-  
-              <li class="nav-item verticalLine">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-  
-              <li class="nav-item verticalLine active">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-  
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand navbar-light bg-light py-0 top-navigation fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header" >
+          <h1><a class="navbar-brand bgGreen text-white clearfix"  id="navBrand" href="#">Blake Stickland</a></h1>
         </div>
-      </nav>
 
-  <main>
+          <ul class="navbar-nav ml-auto"  role="navigation">
+
+            <!-- The links of our navbar -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active verticalLine">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+
+            <li class="nav-item verticalLine">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+
+          </ul>
+      </div>
+    </nav>
+
+    <main>
+      
      <div class="container bg-white m-5 p-4">
 
       <section class="bottomBorder pb-3">
@@ -137,16 +130,18 @@
 
   
 
-    <div class="footer"> 
-        <!-- Copyright -->
-        <div class="container-fluid text-center pt-4">
-          <span>© 2020 Copyright:Blake Stickland</span>
-        </div>
-        <!-- Copyright --> 
-      </div>
+  <div class="footer fixed-bottom"> 
+    <!-- Copyright -->
+    <div class="text-center pt-4">
+      <span>© 2020 Copyright:Blake Stickland</span>
+    </div>
+    <!-- Copyright --> 
+  </div>
+
+  </div>
     
         <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
         <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
