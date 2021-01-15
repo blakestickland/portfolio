@@ -1,6 +1,9 @@
 ## Portfolio of Blake Stickland
 A portfolio using responsive design to render on all devices, windows and screen sizes, great and small.
 
+Link to deployed portfolio: https://blakestickland.github.io/portfolio/
+
+
 # SUCCESSES
 
 -- Able to get header and footer to stay in position across all screen widths.
