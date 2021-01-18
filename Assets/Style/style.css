@@ -1,8 +1,37 @@
 /* CSS for Blaek Stickland Portfolio */
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+  background-color: aliceblue;
+  border: 2px dotted black;
+  height: 600px;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+.flex-item {
+  background-color: #e2dddd;
+  border: 2px solid black;
+  width: 100px;
+  margin: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
 body {
   background-color: rgb(207, 207, 207);
   height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .bg {
@@ -82,8 +111,18 @@ ul a {
   border-bottom: 2px solid rgb(146, 142, 142);
 }
 
+.card {
+  height: 100%;
+}
 
+.card-img-border {
+  border: 1px solid rgb(204, 203, 203);
+}
 
+.card-img-dimensions {
+  height: 13rem;
+  width: 100%;
+}
 /*
   These rules take effect when the browser's width
   is either 640px or less.
@@ -107,4 +146,11 @@ ul a {
       background-color: #ffffff;
     }
     
+  }
+
+  @media screen and (max-width: 767px) {
+    .card-img-dimensions {
+      width:100%;
+      height: 22rem;
+    }
   }

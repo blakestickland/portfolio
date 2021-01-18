@@ -1,14 +1,15 @@
 ## Portfolio of Blake Stickland
+
 A portfolio using responsive design to render on all devices, windows and screen sizes, great and small.
+
+![deployed work day scheduler](images/portfolio.png)
 
 Link to deployed portfolio: https://blakestickland.github.io/portfolio/
 
+## AIM:
 
-# SUCCESSES
+## GOALS:
 
--- Able to get header and footer to stay in position across all screen widths.
-
--- Able to use Bootstrap for a lot of styling. However it was challenging working out why some desired functions did not work. When discovered it was usually related to nested elements overrding the desired property value. Also came down to initial layout. In future, I will layout everything with background colors to be able to see positioning use Inspector to work out padding and margins. 
 
 ## Problems to address:
 
@@ -21,10 +22,21 @@ Link to deployed portfolio: https://blakestickland.github.io/portfolio/
 
 # index.html page
 
+// TODO add icons for Lined In profile etc.
+
+// TODO add hamburger image in menu bar for small screens
+
+
+
 -- text begins to shrink when screen < 600px wide.
 
 
 # portfolio.html page
+
+
+// TODO replace placeholders with 4 projects.
+
+// TODO create cards for the portfoilio links (enhancement)
 
 -- doesn't quite work correctly in responsiveness. added bg-color to assist working out the re-sizing of the images. 
 

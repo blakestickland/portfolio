@@ -1,4 +1,5 @@
-<!-- Project 02 Warmup Bootstrap -->
+<!-- Portfolio -->
+<!-- index.html -->
 
 <!DOCTYPE html>
 <html lang="en-us" style="height: 100vh;">
@@ -21,119 +22,128 @@
     <nav class="navbar navbar-expand navbar-light bg-light py-0 top-navigation fixed-top">
       <div class="container-fluid">
         <div class="navbar-header" >
-          <h1><a class="navbar-brand bgGreen text-white clearfix"  id="navBrand" href="#">Blake Stickland</a></h1>
+          <h1><a class="navbar-brand bgGreen text-white clearfix"  id="navBrand" href="index.html">Blake Stickland</a></h1>
         </div>
 
-          <ul class="navbar-nav ml-auto"  role="navigation">
+        
+        <ul class="navbar-nav ml-auto"  role="navigation">
+          
+          <!-- The links of our navbar -->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+          </li>
 
-            <!-- The links of our navbar -->
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-            </li>
+          <li class="nav-item active verticalLine">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          
+          <li class="nav-item verticalLine">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          
+          <li class="nav-item verticalLine">
+            <a class="nav-link" href="https://github.com/blakestickland" target="_blank"><img src="Assets/Images/GitHub-Mark-120px-plus.png" alt="GitHub Mark" height="22rem"></a>
+          </li>
 
-            <li class="nav-item active verticalLine">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
+          <li class="nav-item verticalLine">
+            <a class="nav-link" href="https://linkedin.com/in/blake-stickland-7bbb4a1ba" target="_blank"><img src="Assets/Images/LI-Logo.png" alt="LinkedIn Logo" height="20rem"></a>
+          </li>
 
-            <li class="nav-item verticalLine">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-
-          </ul>
+        </ul>
       </div>
     </nav>
-
+    
     <main>
       
-     <div class="container bg-white m-5 p-4">
-
-      <section class="bottomBorder pb-3">
+      <div class="container bg-white m-5 p-4">
+        
+        <section class="bottomBorder pb-3">
           <h2 class="textGreen">Portfolio</h2>
-      </section>
-
-      <section>
-
-
-        <!-- Creates the Overall Grid -->
-       <div class="container my-3 bg-white">
-
-        <!-- First of three rows -->
-
-        <div class="row">
-
-          <!-- First of two columns -->
-          <div class="col-sm-12 col-md-5 bg-primary mb-3 p-0 w-50  float-md-left clearfix">
-
-            <img class="position-relative" src="Assets/Images/alexander-schimmeck-ineC_oi7NHs-unsplash.jpg" alt="Placeholder" width="300px" height="250px">
-
-            <div class="portfolioLink bgGreen text-center w-100 py-2"><h3>Word Guess</h3></div>
-          </div>
-
-          <!-- spacer -->
-          <div class="col-sm-12 col-md-2 bg-white"></div>
-
-          <!-- Second of two columns -->
-          <div class="col-sm-12 col-md-5 bg-secondary mb-3 p-0 w-50 clearfix">
-           
-            <img class="position-relative" src="Assets/Images/davisuko-rhUU1pemhQ0-unsplash.jpg" alt="Placeholder" width="300px" height="250px">
-
-            <div class="portfolioLink bgGreen text-center w-100 py-2"><h3>RPG Game</h3></div>
+        </section>
+        
+        <section>
           
-          </div>
-
-        </div>
-
-        <!-- Second Row -->
-        <div class="row">
-
-          <!-- First of two columns -->
-          <div class="col-sm-12 col-md-5 bg-primary mb-3 p-0 w-50  float-md-left clearfix">
-
-            <img class="position-relative" src="Assets/Images/john-schaidler-9V3Q2W_mRLE-unsplash.jpg" alt="Placeholder" width="300px" height="250px">
-
-            <div class="portfolioLink bgGreen text-center w-100 py-2"><h3>Trivia Game</h3></div>
-          </div>
-
-          <!-- spacer -->
-          <div class="col-sm-12 col-md-2 bg-white"></div>
-
-          <!-- Second of two columns -->
-          <div class="col-sm-12 col-md-5 bg-secondary mb-3 p-0 w-50 clearfix">
-           
-            <img class="position-relative" src="Assets/Images/robert-keane-rlbG0p_nQOU-unsplash.jpg" alt="Placeholder" width="300px" height="250px">
-
-            <div class="portfolioLink bgGreen text-center w-100 py-2"><h3>Info Widget</h3></div>
           
+          <!-- Creates the Overall Grid -->
+          <div class="container my-3 bg-white">
+            
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+                <div class="card">
+
+                  <a href="https://lindahlubi.github.io/Project-1/index.html"
+                   class="card-img-border" target="_blank"><img class="card-img-top card-img-dimensions" 
+                   src="Assets/Images/hangry-project-screenshot2.png" alt="Hangry Recipe Search screenshot">
+                  </a>
+
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Hangry -- Recipe Search</h5>
+                    <p class="card-text text-justify">Feeling Hangry? Search for the ideal recipe to satisfy your food desire! Feeling Hangry? Search for the ideal recipe to satisfy your food desire!</p>
+                  </div>
+                  <a href="https://lindahlubi.github.io/Project-1/index.html" class="btn bgGreen text-white" target="_blank">Hangry?</a>
+
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+                <div class="card">
+
+                  <a href="https://blakestickland.github.io/work-day-scheduler/"
+                   class="card-img-border" target="_blank"><img class="card-img-top card-img-dimensions" 
+                   src="Assets/Images/work-day-calendar-screenshot.png" alt="Work Day Scheduler screenshot">
+                  </a>
+
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Work Day Scheduler</h5>
+                    <p class="card-text text-justify">Get organised! Add your day's activities hour by hour, save them, and keep track of the day with color-coding.</p>
+                  </div>
+                  <a href="https://blakestickland.github.io/work-day-scheduler/" class="btn bgGreen text-white" target="_blank">Work Day Scheduler</a>
+
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3  mb-4">
+                <div class="card">
+
+                  <a href="https://blakestickland.github.io/password-generator/"
+                   class="card-img-border" target="_blank"><img class="card-img-top card-img-dimensions" 
+                   src="Assets/Images/password-generaator-deployed-screenshot.png" alt="Password Generator screenshot">
+                  </a>
+
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Password Generator</h5>
+                    <p class="card-text text-justify">Randomly generates a password from 8 to 128 characters long. You can choose the type of characters to include.</p>
+                  </div>
+                  <a href="https://blakestickland.github.io/password-generator/" class="btn bgGreen text-white" target="_blank">Password Generator</a>
+
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3  mb-4">
+                <div class="card">
+
+                  <a href="https://blakestickland.github.io/weather-dashboard/"
+                   class="card-img-border" target="_blank"><img class="card-img-top card-img-dimensions" 
+                   src="Assets/Images/weather-dashboard-screenshot.png" alt="Weather Dashboard screenshot">
+                  </a>
+
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Weather Dashboard</h5>
+                    <p class="card-text text-justify">Discover the current weather details plus the 5-day forecast for any city you search. Your search will be saved and recalled when you return to the page.</p>
+                  </div>
+                  <a href="https://blakestickland.github.io/weather-dashboard/" class="btn bgGreen text-white" target="_blank">Weather Dashboard</a>
+
+                </div>
+              </div>
+            </div>     
           </div>
-
-        </div>
-
-         <!-- Third Row -->
-        <div class="row">
-
-          <!-- First of two columns -->
-          <div class="col-sm-12 col-md-5 bg-primary mb-3 p-0 w-50  float-md-left clearfix">
-
-            <img class="position-relative" src="Assets/Images/steve-johnson-OPyoU4zCwWI-unsplash.jpg" alt="Placeholder" width="300px" height="250px">
-
-            <div class="portfolioLink bgGreen text-center w-100 py-2"><h3>Rock Papaer Scissors</h3></div>
-          </div>
-     
-     
-
-        </div>
-      </section>
-  
-    </div>
-
-  </main>
+        </section>
+      </div>
+    </main>
 
   
 
   <div class="footer fixed-bottom"> 
     <!-- Copyright -->
     <div class="text-center pt-4">
-      <span>© 2020 Copyright:Blake Stickland</span>
+      <span>© 2021 Copyright:Blake Stickland</span>
     </div>
     <!-- Copyright --> 
   </div>
